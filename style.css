@@ -12,16 +12,28 @@ html, body {
   position: relative;
 }
 
-img {
-  max-width: 300px;
-}
-
 header{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+}
+
+.header-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-item .logo-educap {
+  height: 200px;
+
+}
+
+.header-item p {
+  width: 15%;
+  margin: 0 2%;
 }
 
 header nav ul {
