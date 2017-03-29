@@ -18,10 +18,10 @@ header{
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
-  background: url(educap-assets/Assets-01.svg) no-repeat right -10%,
-   url(educap-assets/Assets-02.svg) no-repeat -100px 200px,
+  background: url(educap-assets/Assets-01.svg) no-repeat 102% -30%,
+   url(educap-assets/Assets-02.svg) no-repeat -100px 180px,
    url(educap-assets/Assets-03.svg) no-repeat center bottom;
-  background-size: 20%, 35%, 92%;
+  background-size: 25%, 35%, 92%;
   /*background: blue;*/
 
 }
@@ -30,7 +30,7 @@ header{
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-top: 70px;
+  margin-top: 150px;
   margin-bottom: 295px;
 }
 
@@ -49,11 +49,24 @@ header{
   padding-bottom: 52px;
 }
 
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: fixed;
+  z-index: 1;
+  /*background: blue;*/
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0;
+  width: 100%;
+  height: 90px;
+}
 
 header nav ul {
   display: flex;
-  margin: 7% 0;
+  /*margin: 7% 0;*/
   padding: 0;
+  
 }
 
 header nav ul li {
@@ -90,11 +103,53 @@ header nav ul li a {
   height: auto;
   /*top: 42px;*/
   /*left: 27%;*/
-  margin: 0 auto;
+  margin: 42px auto;
+  /*margin: 40px;*/
   border: solid 4px;
   border-color: linear-gradient(#FFFF9F, #FF9600);
   padding: 42px; 
 }
+
+#sobre .img02 {
+  width: 43%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#sobre p{
+  font-family: 'Meta-Normal';
+  font-size: 21px;
+  color: rgb(150, 150, 150);
+  font-style: normal;
+  text-align: left;
+  line-height: 25.2px;
+  letter-spacing: 0em;
+  width: 41%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+
+#sobre h2 {
+ margin: 3% auto;
+}
+
+#sobre .ico-lm {
+  height: 30px;
+  margin-top: 25px;
+}
+
+#sobre .lm {
+  font-family: 'Meta-Normal'
+  font-size: 17px;
+  color: rgb(150, 150, 150);
+  font-style: normal;
+  text-align: center;
+  line-height: 20.4px;
+  letter-spacing: 0em;
+
+}
+
 .contribua {
   border: 2px solid rgb(129, 132, 131);
 }
