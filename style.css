@@ -88,18 +88,19 @@ header nav ul li a {
 
 #sobre {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  align-items: center; 
   flex-direction: column;
   padding-top: 43px;
 }
 
 #sobre .img01 {
-  width: 43%;
-  height: auto;
-  margin: 42px auto;
-  border: solid 4px;
-  border-color: linear-gradient(#FFFF9F, #FF9600);
+  width: 600px;
+  height: 450px;
+  margin: 0 auto;
+  border: solid 4px #f1a629;
   padding: 42px; 
+  margin-bottom: 45px;
 }
 
 #sobre .img02 {
@@ -119,6 +120,7 @@ header nav ul li a {
   width: 41%;
   margin: 0 auto;
   padding-top: 10px;
+  text-indent: 2em;
 }
 
 
@@ -146,7 +148,15 @@ header nav ul li a {
   border: 2px solid rgb(129, 132, 131);
 }
 
-
+#projetos ul{
+  display:flex;
+  list-style-type: none;
+}
+#projetos ul li{
+  border: solid 2px;
+  margin: 0 .5%;
+  padding: 5px 8px; 
+}
 #projetos img {
   max-width: 100%;
 }
@@ -163,3 +173,6 @@ footer img {
   width: 30px;
 }
 
+footer ul li {
+  display: inline;
+}
