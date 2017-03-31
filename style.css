@@ -93,18 +93,10 @@ header nav ul li a {
   padding-top: 43px;
 }
 
-/*#sobre .imgborder {
-  width: 52%; 
-  margin: 0 auto;
-}*/
-
 #sobre .img01 {
   width: 43%;
   height: auto;
-  /*top: 42px;*/
-  /*left: 27%;*/
   margin: 42px auto;
-  /*margin: 40px;*/
   border: solid 4px;
   border-color: linear-gradient(#FFFF9F, #FF9600);
   padding: 42px; 
@@ -154,6 +146,18 @@ header nav ul li a {
   border: 2px solid rgb(129, 132, 131);
 }
 
+
+#projetos img {
+  max-width: 100%;
+}
+
+#projetos,
+#acontece,
+#contribua {
+  display: flex;
+  flex-direction: column;
+  max-width: 43%;
+}
 
 footer img {
   width: 30px;
