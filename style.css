@@ -148,33 +148,101 @@ header nav ul li a {
   border: 2px solid rgb(129, 132, 131);
 }
 
-#projetos ul{
-  display:flex;
-  list-style-type: none;
-}
-#projetos ul li{
-  border: solid 7px;
-  margin: 0 .5%;
-  padding: 5px 8px; 
+#projetos {
+  width: 70%;
 }
 
+#projetos ul{
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0 ;
+}
+#projetos ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 7px;
+  margin-right:1%;
+  padding: 4px 27px; 
+
+}
+ 
 #projetos .cor1 {
   border: solid 7px rgb(249, 224, 148);
+  font-family: 'Meta-Bold';
+  font-size: 10.8px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10.5px;
+  letter-spacing: 0em;
 }
 
 #projetos .cor2 {
-  border: solid 7px rgb(49, 167, 223) ;
+  border: solid 7px rgb(49, 167, 223);
+  font-family: 'Meta-Bold';
+  font-size: 10.8px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10.5px;
+  letter-spacing: 0em;
+ 
 }
 
 #projetos .cor3 {
   border: solid 7px rgb(168, 205, 122);
+  font-family: 'Meta-Bold';
+  font-size: 10.8px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10.5px;
+  letter-spacing: 0em;
 }
 
 #projetos .cor4 {
   border: solid 7px rgb(200, 75, 151);
+  font-family: 'Meta-Bold';
+  font-size: 10.8px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10.5px;
+  letter-spacing: 0em;
 }
 
-#projetos .cor5 {}
+#projetos .cor5 {
+  border: solid 7px rgb(249, 224, 148);
+  font-family: 'Meta-Bold';
+  font-size: 10.8px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10.5px;
+  letter-spacing: 0em;
+}
+
+#projetos .projeto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+#projetos .projeto h2 {
+  width: 100%;
+  font-family: 'Meta-Bold';
+  font-size: 21px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 25.2px;
+  letter-spacing: 0em;
+}
+
 
 #projetos .projeto img {
   max-width: 100%;
