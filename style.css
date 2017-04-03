@@ -153,11 +153,30 @@ header nav ul li a {
   list-style-type: none;
 }
 #projetos ul li{
-  border: solid 2px;
+  border: solid 7px;
   margin: 0 .5%;
   padding: 5px 8px; 
 }
-#projetos img {
+
+#projetos .cor1 {
+  border: solid 7px rgb(249, 224, 148);
+}
+
+#projetos .cor2 {
+  border: solid 7px rgb(49, 167, 223) ;
+}
+
+#projetos .cor3 {
+  border: solid 7px rgb(168, 205, 122);
+}
+
+#projetos .cor4 {
+  border: solid 7px rgb(200, 75, 151);
+}
+
+#projetos .cor5 {}
+
+#projetos .projeto img {
   max-width: 100%;
 }
 
