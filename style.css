@@ -147,16 +147,26 @@ header nav ul li a {
 .contribua {
   border: 2px solid rgb(129, 132, 131);
 }
+#projetos,
+#acontece,
+#contribua {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
 
 #projetos {
-  width: 70%;
+  /*width: 100%;*/
 }
 
 #projetos ul{
   display:flex;
   justify-content: space-between;
   list-style-type: none;
-  padding-left: 0 ;
+  padding-left: 0;
+  width: 43%;
+  margin-left: 21%;
+  margin-top: 7%;
 }
 #projetos ul li{
   display: flex;
@@ -165,72 +175,48 @@ header nav ul li a {
   border: solid 7px;
   margin-right:1%;
   padding: 4px 27px; 
-
+}
+#projetos ul li a{
+  font-family: 'Meta-Bold';
+  font-size: 10.8px;
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 10.5px;
+  letter-spacing: 0em;
+  text-decoration: none;
 }
  
 #projetos .cor1 {
   border: solid 7px rgb(249, 224, 148);
-  font-family: 'Meta-Bold';
-  font-size: 10.8px;
-  color: rgb(153, 153, 153);
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 10.5px;
-  letter-spacing: 0em;
 }
 
 #projetos .cor2 {
   border: solid 7px rgb(49, 167, 223);
-  font-family: 'Meta-Bold';
-  font-size: 10.8px;
-  color: rgb(153, 153, 153);
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 10.5px;
-  letter-spacing: 0em;
- 
 }
 
 #projetos .cor3 {
   border: solid 7px rgb(168, 205, 122);
-  font-family: 'Meta-Bold';
-  font-size: 10.8px;
-  color: rgb(153, 153, 153);
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 10.5px;
-  letter-spacing: 0em;
 }
 
 #projetos .cor4 {
   border: solid 7px rgb(200, 75, 151);
-  font-family: 'Meta-Bold';
-  font-size: 10.8px;
-  color: rgb(153, 153, 153);
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 10.5px;
-  letter-spacing: 0em;
 }
 
 #projetos .cor5 {
   border: solid 7px rgb(249, 224, 148);
-  font-family: 'Meta-Bold';
-  font-size: 10.8px;
-  color: rgb(153, 153, 153);
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 10.5px;
-  letter-spacing: 0em;
 }
 
 #projetos .projeto {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-
-
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: wrap row; 
+  margin-left:  21%;
+  padding-top: 7%;
+}
+#projetos #danca{
+  padding-top:0;
 }
 #projetos .projeto h2 {
   width: 100%;
@@ -243,17 +229,54 @@ header nav ul li a {
   letter-spacing: 0em;
 }
 
-
 #projetos .projeto img {
-  max-width: 100%;
+  width: 40%;
+
 }
 
-#projetos,
-#acontece,
-#contribua {
+#projetos .projeto p {
+  width: 30%;
+  margin-left: 16px;
+  margin-top: 0;
+  font-family: 'Meta-Normal';
+  font-size: 21px;
+  color: rgb(150, 150, 150);
+  font-style: normal;
+  text-align: left
+  line-height: 25.2px;
+  letter-spacing: 0em;
+}
+
+#projetos .barend {
+  margin-top: 10%;
+}
+
+#acontece {
   display: flex;
-  flex-direction: column;
-  max-width: 43%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 72px;
+}
+#acontece .item-acont{
+  width: 15%;
+  margin: 0 3%;
+}
+#acontece .item-acont:first-child{
+  width: 41%;
+  margin-left: 5%;
+  /*background:tomato;*/
+}
+#acontece .quadrado {
+  width: 50s0px;
+  height: 300px;
+  background-color: gray;
+}
+
+#acontece .dinho {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
 }
 
 footer img {
@@ -263,3 +286,4 @@ footer img {
 footer ul li {
   display: inline;
 }
+
